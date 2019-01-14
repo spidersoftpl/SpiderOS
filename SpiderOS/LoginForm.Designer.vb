@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Startup
+Partial Class LoginForm
     Inherits System.Windows.Forms.Form
 
     'Formularz przesłania metodę dispose, aby wyczyścić listę składników.
@@ -22,18 +22,17 @@ Partial Class Startup
     'Nie należy modyfikować za pomocą edytora kodu.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Startup))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LoginForm))
         Me.SuspendLayout()
         '
-        'Startup
+        'LoginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Startup"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "SpiderOS - Startowanie Systemu"
+        Me.Name = "LoginForm"
+        Me.Text = "SpiderOS - Logowanie"
         Me.ResumeLayout(False)
 
     End Sub
