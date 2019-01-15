@@ -9,7 +9,7 @@
         ProgressBar1.Increment(5)
         If ProgressBar1.Value = 100 Then
             Timer1.Stop()
-            Me.Close()
+            Me.Hide()
             LoginForm.Show()
         End If
     End Sub
