@@ -31,9 +31,9 @@ Partial Class Desktop
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(1154, 570)
+        Me.Button1.Location = New System.Drawing.Point(1182, 599)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(98, 99)
+        Me.Button1.Size = New System.Drawing.Size(70, 70)
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = False
         '
