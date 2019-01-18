@@ -11,7 +11,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("SpiderOS")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyCompany("SpiderSoftPL")>
 <Assembly: AssemblyProduct("SpiderOS")>
 <Assembly: AssemblyCopyright("")>
 <Assembly: AssemblyTrademark("")>
@@ -32,6 +32,6 @@ Imports System.Runtime.InteropServices
 ' przy użyciu symbolu „*”, tak jak pokazano poniżej:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("2.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
 <Assembly: NeutralResourcesLanguage("pl-PL")>
