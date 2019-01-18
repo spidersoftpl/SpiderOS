@@ -30,7 +30,7 @@ Partial Class Clock
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.ClientSize = New System.Drawing.Size(1008, 601)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Name = "Clock"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
