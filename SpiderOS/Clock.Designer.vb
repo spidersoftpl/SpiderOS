@@ -22,8 +22,10 @@ Partial Class Clock
     'Nie należy modyfikować za pomocą edytora kodu.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Clock))
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Label1
@@ -35,6 +37,9 @@ Partial Class Clock
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "00:00"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Timer1
+        '
         '
         'Clock
         '
@@ -54,4 +59,5 @@ Partial Class Clock
     End Sub
 
     Friend WithEvents Label1 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
