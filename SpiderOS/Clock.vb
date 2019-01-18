@@ -9,7 +9,7 @@
         Label1.Text = DateTime.Now.ToString("HH:mm")
         Dim SecondString As String = DateTime.Now.ToString("ss")
         Dim Second As Int64 = Convert.ToInt64(SecondString)
-
+        ProgressBar1.Value = Second
     End Sub
 
     Public ReadOnly Property Second As Integer
