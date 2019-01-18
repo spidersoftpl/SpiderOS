@@ -58,6 +58,7 @@ Partial Class Startup
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Startup"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
