@@ -29,7 +29,7 @@ Partial Class Desktop
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Location = New System.Drawing.Point(1182, 599)
@@ -40,7 +40,7 @@ Partial Class Desktop
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.Transparent
+        Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button2.Location = New System.Drawing.Point(12, 12)
