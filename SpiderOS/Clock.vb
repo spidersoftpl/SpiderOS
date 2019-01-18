@@ -12,5 +12,5 @@
         ProgressBar1.Value = Second
     End Sub
 
-    Public ReadOnly Property Second As Integer
+
 End Class
